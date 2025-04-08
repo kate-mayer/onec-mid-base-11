@@ -574,18 +574,18 @@
   <roles>Role.Администрирование</roles>
   <roles>Role.БазоваяФункциональностьТП</roles>
   <roles>Role.БазовыеПраваБСП</roles>
-  <roles>Role.ДобавлениеИзменениеДокументовПокупки</roles>
   <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.ДобавлениеИзменениеВариантовОтчетов</roles>
   <roles>Role.ДобавлениеИзменениеВидовКонтактнойИнформации</roles>
   <roles>Role.ДобавлениеИзменениеВнешнихПользователей</roles>
+  <roles>Role.ДобавлениеИзменениеДокументовПокупки</roles>
   <roles>Role.ДобавлениеИзменениеДокументовПродажи</roles>
-  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
   <roles>Role.ДобавлениеИзменениеДополнительныхОтчетовИОбработок</roles>
   <roles>Role.ДобавлениеИзменениеДополнительныхРеквизитовИСведений</roles>
-  <roles>Role.ДобавлениеИзменениеНСИ</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
   <roles>Role.ДобавлениеИзменениеЛичныхВариантовОтчетов</roles>
+  <roles>Role.ДобавлениеИзменениеНСИ</roles>
   <roles>Role.ДобавлениеИзменениеПапокИФайлов</roles>
   <roles>Role.ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</roles>
   <roles>Role.ДобавлениеИзменениеПользователей</roles>
@@ -666,6 +666,7 @@
   <commonModules>CommonModule.ДлительныеОперации</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииВызовСервера</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииКлиент</commonModules>
+  <commonModules>CommonModule.ДОП_РаботаСФормами</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиВБезопасномРежимеСлужебный</commonModules>
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработкиВызовСервера</commonModules>
@@ -1020,13 +1021,13 @@
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
-  <commonCommands>CommonCommand.ОсновныеОтчеты</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.НастроитьПрава</commonCommands>
   <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
   <commonCommands>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commonCommands>
   <commonCommands>CommonCommand.Обсуждения</commonCommands>
+  <commonCommands>CommonCommand.ОсновныеОтчеты</commonCommands>
   <commonCommands>CommonCommand.ПанельОтчетовАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ПерсональнаяНастройкаПроксиСервера</commonCommands>
   <commonCommands>CommonCommand.ПраваДоступа</commonCommands>
@@ -1047,9 +1048,9 @@
   <commandGroups>CommandGroup.Печать</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
-  <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
   <constants>Constant.ВыполнятьЗамерыПроизводительности</constants>
+  <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</constants>
